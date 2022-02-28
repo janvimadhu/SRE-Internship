@@ -6,6 +6,6 @@
 
 # Extra-Practices
 
-    Week 2 - Namespace Overview
-    Week 4 - ProcFS overview
+     Namespace Overview
+     ProcFS overview
   
