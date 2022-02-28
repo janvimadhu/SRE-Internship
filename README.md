@@ -9,3 +9,10 @@
      Namespace Overview
      ProcFS overview
   
+# Project-Working
+     
+     Data Growth Prediction Project
+     
+     1. Import Data from the csv and write it into the influxdb
+     2. Convert the Data into a pandas dataframe and plot the graph of the data. 
+     3. Perform operations to find the rate of growth change on hourly , daily , weekly , 15days and monthly and plot on the graph.
