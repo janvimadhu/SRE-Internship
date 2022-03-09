@@ -4,7 +4,7 @@
     WEEK 2 - Task Day , Saltstack 
     WEEK 3 - Azure , Galera & Expand , Aerospike & RMQ , ElasticSearch & Data Stores , Proxy 
     WEEK 4 - Infrastructure Monitoring , Nginx & Taefik , Mesos Marathon & Docker , Hadoop Basics 
-    WEEK 5 - Kafka , Hdfs , HBase , druid + yarn 
+    WEEK 5 - Kafka , Hdfs 
     
 # Extra-Practices
 
