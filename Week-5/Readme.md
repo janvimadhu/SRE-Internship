@@ -29,3 +29,12 @@ Task 2:
         3. Upload/Download Files.
         4. File Management.
         5. Check Ownership and Validation.
+
+# HBase 
+
+Task 1:
+
+        Create a Pseudo-distributed mode hbase cluster, with local storage.
+        Create a table.  
+        Insert data into the table. 
+        Split the table.
