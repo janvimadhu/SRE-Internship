@@ -34,7 +34,7 @@ Task 2:
 
 Task 1:
 
-        Create a Pseudo-distributed mode hbase cluster, with local storage.
-        Create a table.  
-        Insert data into the table. 
-        Split the table.
+        1. Create a Pseudo-distributed mode hbase cluster, with local storage.
+        2. Create a table.  
+        3. Insert data into the table. 
+        4. Split the table.
