@@ -4,7 +4,7 @@
     WEEK 2 - Task Day , Saltstack 
     WEEK 3 - Azure , Galera & Expand , Aerospike & RMQ , ElasticSearch & Data Stores , Proxy 
     WEEK 4 - Infrastructure Monitoring , Nginx & Taefik , Mesos Marathon & Docker , Hadoop Basics 
-    WEEK 5 - Kafka , Hdfs , HBase
+    WEEK 5 - Kafka , Hdfs , HBase , Yarn
     
 # Extra-Practices
 
@@ -19,3 +19,4 @@
      2. Convert the Data into a pandas dataframe and plot the graph of the data. 
      3. Perform operations to find the rate of growth change on hourly , daily , weekly , 15days and monthly and plot on the graph.
      4. Downsample the Data on daily and weekly basis. 
+     5. Generate Reports. 
