@@ -38,3 +38,14 @@ Task 1:
         2. Create a table.  
         3. Insert data into the table. 
         4. Split the table.
+
+# Yarn 
+   
+Task1:
+
+        Setup yarn in pseudo-distributed mode
+
+Task2:
+
+        Run sample mapreduce jobs on a input file of your choice & share the results in a word doc
+        Read up on various failure scenarios for an application and share your observations in a word doc.
