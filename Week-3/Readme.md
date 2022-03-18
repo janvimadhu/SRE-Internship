@@ -48,3 +48,36 @@ All resources must be created in India Regions.
 10. Add a 10G data disk to the machine, and create a mount point to redirect the flask app logs to the mount point. Explore disk redundancy options.
 11. Resize the VMs (via portal and terraform resp.)
 12. Destroy all the resources. Delete the SP and extra users added if any.
+
+
+# Aerospike
+
+Aerospike:
+     
+     Install and configure 1 node Aerospike cluster community edition
+     The AS cluster should have a username/password
+     Data should be persisted on disk
+     Add 2 more nodes to the cluster without restarting AS service on first one
+     Create a namespace Orders
+
+Testing:
+
+     Write a program using an AS client to write and read the data from AS
+     The namespace should have the following sets (buyer details, product details)
+     Each set should have 3000 records.
+     The records should have an expiry of 24h
+
+
+# Proxy
+
+- Create a self signed wildcard certificate with domain *.intern.phonepe.in with expiry validity of 2 years.
+- Setup a simple server running on port 5440 that implements ping/pong requests
+- Using certificates from step 1, setup a nginx ssl proxy (domain ping.intern.phonepe.in) running on port 444. Proxy should redirect request to the locally setup ping-pong server
+
+testing of the setup:
+try hitting https://ping.intern.phonepe.in expected response should be:
+
+     pong
+     
+  
+     
