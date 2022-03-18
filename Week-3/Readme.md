@@ -54,18 +54,18 @@ All resources must be created in India Regions.
 
 Aerospike:
      
-     Install and configure 1 node Aerospike cluster community edition
-     The AS cluster should have a username/password
-     Data should be persisted on disk
-     Add 2 more nodes to the cluster without restarting AS service on first one
-     Create a namespace Orders
+1. Install and configure 1 node Aerospike cluster community edition
+2. The AS cluster should have a username/password
+3. Data should be persisted on disk
+4. Add 2 more nodes to the cluster without restarting AS service on first one
+5. Create a namespace Orders
 
 Testing:
 
-     Write a program using an AS client to write and read the data from AS
-     The namespace should have the following sets (buyer details, product details)
-     Each set should have 3000 records.
-     The records should have an expiry of 24h
+1. Write a program using an AS client to write and read the data from AS
+2. The namespace should have the following sets (buyer details, product details)
+3. Each set should have 3000 records.
+4. The records should have an expiry of 24h
 
 
 # Proxy
