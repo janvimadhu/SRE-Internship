@@ -67,6 +67,19 @@ Testing:
 3. Each set should have 3000 records.
 4. The records should have an expiry of 24h
 
+# RMQ (RabbitMQ)
+
+1. Install and configure 1 node RMQ cluster version 3.8.9
+2. The RMQ cluster should be on TLS and have a username/password
+3. Data should be persisted on disk
+4. Add 2 more nodes to the cluster without restarting RMQ service on first one
+5. Create a vhost and a user with read-write permissions to the vhost
+6. Create 2 queues (DATA, DATA_SIDELINE) on the above created vhost
+
+Testing :
+1. Create a publisher and consumer for the DATA queue
+2. Publish 100 messages to DATA queue
+
 
 # Proxy
 
