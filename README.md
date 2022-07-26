@@ -23,4 +23,4 @@
      3. Perform operations to find the rate of growth change on hourly , daily , weekly , 15days and monthly and plot on the graph.
      4. Downsample the Data on daily and weekly basis. 
      5. Generate Reports. 
-     6. Predicting the next hwm value. 
+     6. Predicting the next values using prohpet algorithm considering the seasonality and sudden spikes. 
